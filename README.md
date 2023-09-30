@@ -23,13 +23,13 @@ Link prediction in multi-relational graphs is a fundamental task involving the p
 | DistMult | 0.241 | 254 | 0.155 | 0.263 | 0.419 |
 | ComplEx | 0.247 | 339 | 0.158 | 0.275 | 0.428 |
 | ConvE | 0.325 | 244 | 0.237 | 0.365 | 0.501 |
-| RotateE | 0.338 | 177 | 0.241 | 0.375 | 0.533 |
+| RotateE | 0.338 | <u>177</u> | 0.241 | 0.375 | 0.533 |
 | R-GCN | 0.248 | - | - | - | 0.417 |
 | KBGAT | 0.157 | 270 | - | - | 0.331 |
-| InteractE | 0.354 | 172 | 0.263 | - | 0.535 |
+| InteractE | 0.354 | <b>172</b> | 0.263 | - | 0.535 |
 | COMPGCN | 0.355 | 197 | 0.264 | 0.390 | 0.535 |
-| RAGAT | 0.365 | 199 | 0.273 | 0.401 | 0.547 |
-| RAGATv2 | 0.366 | 192 | 0.273 | 0.403 | 0.551 |
+| RAGAT | <u>0.365</u> | 199 | <b>0.273</b> | <u>0.401</u> | <u>0.547</u> |
+| RAGATv2 | <b>0.366</b> | 192 | <b>0.273</b> | <b>0.403</b> | <b>0.551</b> |
 
 ### WN18RR
 | Model | MRR | MR | Hit@1 | Hit@3 | Hit@10 |
@@ -38,13 +38,13 @@ Link prediction in multi-relational graphs is a fundamental task involving the p
 | DistMult | 0.430 | 5110 | 0.390 | 0.440 | 0.490 |
 | ComplEx | 0.440 | 5261 | 0.410 | 0.460 | 0.510 |
 | ConvE | 0.430 | 4187 | 0.400 | 0.440 | 0.520 |
-| RotateE | 0.476 | 3340 | 0.428 | 0.492 | 0.571 |
+| RotateE | 0.476 | 3340 | 0.428 | 0.492 | <u>0.571</u> |
 | R-GCN | - | - | - | 0.137 | - |
-| KBGAT | 0.412 | 1921 | - | - | 0.554 |
+| KBGAT | 0.412 | <b>1921</b> | - | - | 0.554 |
 | InteractE | 0.463 | 5202 | 0.430 | - | 0.528 |
-| COMPGCN | 0.479 | 3533 | 0.443 | 0.494 | 0.546 |
-| RAGAT | 0.489 | 2390 | 0.452 | 0.503 | 0.562 |
-| RAGATv2 | 0.486 | 1986 | 0.440 | 0.503 | 0.577 |
+| COMPGCN | 0.479 | 3533 | <u>0.443</u> | 0.494 | 0.546 |
+| RAGAT | <b>0.489</b> | 2390 | <b>0.452</b> | <b>0.503</b> | 0.562 |
+| RAGATv2 | <u>0.486</u> | <u>1986</u> | 0.440 | <b>0.503</b> | <b>0.577</b> |
 
 ## Acknowledgement
 The implementation is built upon [COMPGCN](https://github.com/malllabiisc/CompGCN) and [RAGAT](https://github.com/liuxiyang641/RAGAT).
