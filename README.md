@@ -31,5 +31,20 @@ Link prediction in multi-relational graphs is a fundamental task involving the p
 | RAGAT | 0.365 | 199 | 0.273 | 0.401 | 0.547 |
 | RAGATv2 | 0.366 | 192 | 0.273 | 0.403 | 0.551 |
 
+### WN18RR
+| Model | MRR | MR | Hit@1 | Hit@3 | Hit@10 |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| TransE | 0.226 | 3384 | - | - | 0.501 |
+| DistMult | 0.430 | 5110 | 0.390 | 0.440 | 0.490 |
+| ComplEx | 0.440 | 5261 | 0.410 | 0.460 | 0.510 |
+| ConvE | 0.430 | 4187 | 0.400 | 0.440 | 0.520 |
+| RotateE | 0.476 | 3340 | 0.428 | 0.492 | 0.571 |
+| R-GCN | - | - | - | 0.137 | - |
+| KBGAT | 0.412 | 1921 | - | - | 0.554 |
+| InteractE | 0.463 | 5202 | 0.430 | - | 0.528 |
+| COMPGCN | 0.479 | 3533 | 0.443 | 0.494 | 0.546 |
+| RAGAT | 0.489 | 2390 | 0.452 | 0.503 | 0.562 |
+| RAGATv2 | 0.486 | 1986 | 0.440 | 0.503 | 0.577 |
+
 ## Acknowledgement
 The implementation is built upon [COMPGCN](https://github.com/malllabiisc/CompGCN) and [RAGAT](https://github.com/liuxiyang641/RAGAT).
