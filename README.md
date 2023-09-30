@@ -47,9 +47,9 @@ Link prediction in multi-relational graphs is a fundamental task involving the p
 | RAGATv2 | <u>0.486</u> | <u>1986</u> | 0.440 | <b>0.503</b> | <b>0.577</b> |
 
 ## How to reproduce the results?
-* Make sure you are using the same seed (41504) for all the experiments.
-* Train the model for 1000 epochs for FB15k-237 and 2400 epochs for WN18RR.
-  * Personal note: As I used the Tesla T4 GPU, provided by Kaggle, I could not train the model for 1000 or 2400 epochs. I trained the model for 200 and 150 epochs for FB15k-237 and WN18RR, respectively, and saved the checkpoints. Then, I restarted the kernel and loaded the checkpoints to continue the training process. I repeated this process until I reached the number of epochs mentioned above.
+* Make sure you are using the same seed (`41504`) for all the experiments.
+* Train the model for `1000` epochs for FB15k-237 and `2400` epochs for WN18RR.
+  * **Personal note:** As I used the Tesla T4 GPU, provided by Kaggle, I could not train the model for `1000` or `2400` epochs. I trained the model for `200` and `150` epochs for FB15k-237 and WN18RR, respectively, and saved the checkpoints. Then, I restarted the kernel and loaded the checkpoints to continue the training process. I repeated this process until I reached the number of epochs mentioned above.
 
 ## Acknowledgement
 The implementation is built upon [COMPGCN](https://github.com/malllabiisc/CompGCN) and [RAGAT](https://github.com/liuxiyang641/RAGAT).
